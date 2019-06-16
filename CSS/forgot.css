@@ -1,0 +1,48 @@
+.bread{
+	margin-top:4.5%;
+}
+.form-forgot input{
+  border-radius: 50px;
+  height: 50px;
+  margin: 10px 0;
+  width: 80%;
+  background-color:#BBFFEE;
+  padding: 10px;
+  color: #fff;
+  margin-left:100px;
+}
+input::placeholder, #check{
+  color: black;
+}
+input:focus{
+  outline: none;
+}
+.submit-forgot{
+  margin: 20px 0 0 150px;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  border-width: 0;
+  text-align: center;
+  background-color: rgb(173,56,120);
+  color: #fff;
+}
+u{
+font-size:40px;
+color:rgb(173,56,120);
+font-width:bold;
+margin-left:45%;
+}
+p.forgot{
+	margin-top:10px;
+	font-size:20px;
+	width:450px;
+	margin-left:20%;
+	border-width:3px;
+	border-style:dashed;
+	border-color:black;
+	padding:5px;
+}
+.forgot{
+	width:1000px;
+}

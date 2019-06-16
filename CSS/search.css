@@ -1,0 +1,84 @@
+body{
+	line-height: 1.42857143;
+	font-size: 14px;
+    color: #666;
+    font-family: "Microsoft YaHei","宋体","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif,FreeSans,Arimo;
+
+}
+.banner{
+	margin-top:5%;
+	background-color:	#c4e1e1;
+}
+.product{
+	width:100px;
+	height:100px;
+}
+.search-box{
+	min-width:100%;
+    font-size: 14px;
+    color: #666;
+    font-family: "Microsoft YaHei","宋体","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif,FreeSans,Arimo;
+}
+.list-item{
+	    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 1px #fff;
+
+}
+.box{
+	    float: left;
+    width: 100%;
+}
+.img{
+	width: 15%;
+    float: left;
+    font-size: 0;
+    text-align: center;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+.block{
+	width: 85%;
+}
+.pull-right {
+    float: right!important;
+}
+.list .block p {
+    margin: 0;
+    padding: 0 15px 5px 0;
+}
+p.search {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.title {
+    font-size: 16px;
+    color: #f03800;
+}
+.leaf-page {
+    min-height: 80px;
+    padding-left: 120px;
+}
+.manu {
+    padding: 3px;
+    margin: 3px 35px 3px 3px;
+    width: 100%;
+        text-align: center;
+}
+.pull-left {
+    float: left!important;
+}
+.manu .info {
+    font-size: 14px;
+    color: #69c;
+}
