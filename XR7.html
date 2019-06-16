@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>期末網站</title>
+		<link rel="shortcut icon" type="image/png" href="./images/logo.jpg"/>
+		<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="stylesheet" href="./CSS/product page.css">
+		<link rel="stylesheet" href="./css/flexslider.css" >
+		<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+	</head>
+	<body>
+			<header class="container-fluid w-100">
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+          <a href="ix.html">
+              <span>經典素面</span>
+            </a>
+            <a  href="ixr.html">
+              <span>可愛卡通</span>
+            </a>
+            <a  href="i8.html">
+              <span>獨家設計</span>
+            </a>
+            <a  href="s10.html">
+              <span>簡約質感</span>
+            </a>
+            <a  href="other.html">
+              <span>其他商品</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+			<label class="tittle">
+				<a href="index.html" class="tittle"><p class="tittle">JIC shop</p></a>
+			</label>
+			
+				
+				<ul id="vip" class="vip">
+					<a href="cart.html"><li class="tittle" ><img src="./img/cart.gif" class="vip"></li></a>
+					<li class="tittle">
+						<img src="./img/head.png" class="vip" onclick="document.getElementById('login').style.display='block'">
+						<div id="login" class="modal">
+							<div class="login-form">
+								<input type="radio" name="tab" class="tab" id="sign-up-tab" checked>
+								<label class="login" for="sign-up-tab" class="tab-header">SIGN UP</label>
+								<input type="radio" name="tab" class="tab" id="sign-in-tab">
+								<label class="login" for="sign-in-tab" class="tab-header">SIGN IN</label>
+								<form id="sign-up">
+									<span onclick="document.getElementById('login').style.display='none'"
+									class="close" title="Close" style="color:white;">&times;</span>
+									<div class="header">Sign up for free</div>
+									<div class="form-input">
+										<input type="text" class="input" id="new-username" placeholder="User Name" required/>
+									</div>
+									<div class="form-input">
+										<input type="email" class="input" id="email" placeholder="Email Address" required/>
+									</div>
+									<div class="form-input">
+										<input type="password" class="input" id="new-password" placeholder="Password" required/>
+									</div>
+									<input type="submit" id="sign-up-btn" class="submit-button" value="SIGN UP">
+								</form>
+								<form id="sign-in">
+									<span onclick="document.getElementById('login').style.display='none'"
+									class="close" title="Close" style="color:white;">&times;</span>
+									<div class="header">Welcome Back</div>
+									<div class="form-input">
+										<input type="text" class="input" id="username" placeholder="User Name" required/>
+									</div>
+									<div class="form-input">
+										<input type="password" class="input" id="password" placeholder="Password" required/>
+									</div>
+									<input type="checkbox"><span id="check">Keep me signed in</span>
+									<input type="submit" id="sign-in-btn" class="submit-button" value="SIGN IN">
+								</form>
+							</div>
+						</div>
+					</li>
+					<li class="search">
+						<a href="search.html"><img src="img/search.png" id="search_pic"></a>
+						<form action="" method="post">
+							<input type="text" name="search" id="search" size="10" placeholder="search">
+						</form>
+						
+					</li>
+				</ul>
+			
+		</header>
+		<div class="bread">
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Pictures</a></li>
+				<li><a href="#">Summer 15</a></li>
+				<li>Italy</li>
+			</ul>
+		</div>
+		<section>
+			<div class="container">
+				<div class="row">
+				<div class="col-12 col-md-3">
+						
+							<div class="col-12 mb-5">
+								<h4>類似商品</h4>
+								<div class="d-block sidebar-product-list">
+								
+								<a href="i84.html" class="d-inline-block">
+									<img src="./img/product/i84.jpg" alt="LTG-BY-0001" class="d-inline-block  product-list-img list-img" >
+									
+								</a>
+							</div><br>
+							<div class="d-block sidebar-product-list">
+								
+								<a href="XR9.html" class="d-inline-block">
+									<img src="./img/product/XR9.jpg" alt="LTG-BY-0001" class="d-inline-block product-list-img list-img">
+									
+								</a>
+							</div><br>
+							<div class="d-block sidebar-product-list">
+								
+								<a href="i85.html" class="d-inline-block">
+									<img src="./img/product/i85.jpg" alt="LTG-BY-0001" class="d-inline-block product-list-img list-img">
+									
+								</a>
+							</div><br>
+							<div class="d-block sidebar-product-list">
+								
+								<a href="i86.html" class="d-inline-block">
+									<img src="./img/product/i86.jpg" alt="LTG-BY-0001" class="d-inline-block product-list-img list-img">
+									
+								</a>
+							</div><br>
+							<div class="d-block sidebar-product-list">
+								
+								<a href="XR7.html" class="d-inline-block">
+									<img src="./img/product/XR7.jpg" alt="LTG-BY-0001" class="d-inline-block product-list-img list-img">
+									
+								</a>
+							</div><br>
+							</div>
+						
+					</div>
+
+					<div class="col-12 col-md-9">
+						<div class="row">
+							<div class="container-slider">
+								<div class="mySlides">
+									<div class="numbertext">1 / 2</div>
+									<img src="img/product/XR7.jpg" style="width:50% ">
+								</div>
+								<div class="mySlides">
+									<div class="numbertext">2 / 2</div>
+									<img src="img/product/XR7-1.jpg" style="width:50%">
+								</div>
+								
+								<a class="prev" onclick="plusSlides(-1)">❮</a>
+								<a class="next" onclick="plusSlides(1)">❯</a>
+								
+								<div class="slider-row">
+									<div class="column">
+										<img class="demo cursor" src="img/product/XR7.jpg" style="width:50%" onclick="currentSlide(1)" alt="The Woods">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="img/product/XR7-1.jpg" style="width:50%" onclick="currentSlide(2)" alt="Cinque Terre">
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<h4>日本風-大吉手機殼</h4>
+								<h5 class='new-price'>
+								<small class="price">
+								<del>NT$&nbsp;400</del>
+								</small>
+								NT$&nbsp;200
+								</h5>
+								
+								<div class="d-block mb-3">
+									<p class="mb-0 d-inline-block">數量</p>
+									<form action="" class="d-inline-block">
+										<input type="number" class="form-control w-25" id="quantity" value="1" min="1">
+									</form>
+								</div>
+								<div class="select" style="width:200px;">
+									<select>
+										<option value="0">選擇型號:</option>
+										<option value="1">XR</option>
+										<option value="2">IPHONE6/6S</option>
+										<option value="3">IPHONE7</option>
+										<option value="4">IPHONE8</option>
+										<option value="5">IPHONEX/XS</option>
+									</select>
+								</div>
+								
+								<div class="mb-3">
+									<a href="cart.html" class="btn btn-primary text-white mr-1">加入購物車</a>
+									<a href="checkout.html" class="btn btn-secondary text-white">直接結帳</a>
+								</div>
+							</div>
+							<div class="intro" >
+								<span style="background-color:#DDDDDD">商品規格</span><hr>
+								<p>
+									品牌:
+								自有品牌<br>
+									庫存
+									6666</p>
+									<p>
+									<span style="background-color:#DDDDDD">商品詳情	</span>
+									<hr>
+									
+									📢此賣場為iPhone 7/8共用、iPhone 7Plus/8Plus共用、iPhone X/XR/XS/XS Max專用<br>📢
+【除了按鈕外, 其他配件不與Mod手機殼專用配件相容】 
+【此商品預購：需20個工作天(不含例假日)依訂單順序出貨】
+									<br>
+								📢《日本風》系列手機殼
+
+									<br><hr>
+								#日本風 #手機殼 #簡約 #fumeancats #iPhone7 #iPhone7Plus #iPhone8 #iPhone8Plus #iPhoneX #iPhoneXS #iPhoneXSMax #iPhoneXR</p>
+							</div>
+							  <div class="col-12 mt-5 mb-5">
+                            <div class='example'>
+			        <div class='tabsholder3'>
+			            <div data-tab="留言板">
+			                <div class="board-history">
+								<div class="board-pic"><img src="img/1.jpg" title="" style="width:100%;"></div>
+								<div class="board-content"><p>name</p><p>喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔喔</p></div>
+								</div>
+			            </div>
+			            <div data-tab="留言">
+			              <div class="message">
+									<form action="" method="post" class="STYLE-NAME">
+										<label>
+											<span>Your Name :</span>
+											<input id="name" type="text" name="name" placeholder="Your Full Name" />
+										</label>
+										<label>
+											<span>Your Email :</span>
+											<input id="email" type="email" name="email" placeholder="Valid Email Address" />
+										</label>
+										<label>
+											<span>Message :(30字內)</span>
+											<textarea id="message" name="message" maxlength="30" placeholder="Your Message to Us"></textarea>
+										</label>
+										<label>
+										<span> 評分:</span>
+										 <p class="starWrapper" onmouseover="rate(this,event)"> 
+<img src="http://www.jb51.net/upload/20080508122008586.gif" title="很爛" />
+<img src="http://www.jb51.net/upload/20080508122008586.gif" title="一般" />
+<img src="http://www.jb51.net/upload/20080508122008586.gif" title="還好" />
+<img src="http://www.jb51.net/upload/20080508122008586.gif" title="較好" />
+<img src="http://www.jb51.net/upload/20080508122008586.gif" title="很好" /> 
+</p>
+										</label>
+										
+										<label>
+											<span>&nbsp;</span>
+											<input type="button" class="button" value="Send" id="btn" />
+										</label>
+									</form>
+								</div>
+			            </div>
+			        </div>
+		        </div>
+                        </div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		</section>
+	</body>
+		
+			<footer class="container-fluid">
+				&copy;© Copyright JIC 2019. All rights reserved.<br><br>
+				<a href="https://www.facebook.com/profile.php?id=100003151478137"><img src="img/W.png" id="member" title="兆崴"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100002695652164"><img src="img/Z.png" id="member" title="慶瑜"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100000192364709" title=""><img src="img/C.png" id="member" title="文馨"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100008184541824"><img src="img/S.png" id="member" title="筱凌"></a>
+			</footer>
+<script type="text/javascript"> 
+function rate(obj,oEvent){ 
+//================== 
+// 圖片地址設置 
+//================== 
+var imgSrc = 'http://www.jb51.net/upload/20080508122008586.gif'; //沒有填色的星星
+var imgSrc_2 = 'http://www.jb51.net/upload/20080508122010810.gif'; //打分後有顏色的星星
+//--------------------------------------------------------------------------- 
+if(obj.rateFlag) return; 
+var e = oEvent || window.event; 
+var target = e.target || e.srcElement;  
+var imgArray = obj.getElementsByTagName("img"); 
+for(var i=0;i<imgArray.length;i++){ 
+   imgArray[i]._num = i; 
+   imgArray[i].onclick=function(){ 
+    if(obj.rateFlag) return; 
+    obj.rateFlag=true; 
+    alert(this._num+1+"分,感謝評分");       //this._num+1這個數字寫入到數據庫中,作為評分的依據
+   }; 
+} 
+if(target.tagName=="IMG"){ 
+   for(var j=0;j<imgArray.length;j++){ 
+    if(j<=target._num){ 
+     imgArray[j].src=imgSrc_2; 
+    } else { 
+     imgArray[j].src=imgSrc; 
+    } 
+   } 
+} else { 
+   for(var k=0;k<imgArray.length;k++){ 
+    imgArray[k].src=imgSrc; 
+   } 
+} 
+} 
+</script> 
+	<script defer src="./js/slider.js"></script>
+	
+      <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+		      <script src="js/classie.js" type="text/javascript"></script>
+		        <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		           <script src="js/main.js" type="text/javascript"></script>
+		         	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script type='text/javascript' src='js/jquery.cardtabs.js'></script>
+	<script type='text/javascript'>
+            $('.tabsholder1').cardTabs();
+            $('.tabsholder2').cardTabs({theme: 'inset'});
+            $('.tabsholder3').cardTabs({theme: 'graygreen'});
+            $('.tabsholder4').cardTabs({theme: 'wiki'});
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>期末網站</title>
+		<link rel="shortcut icon" type="image/png" href="./images/logo.jpg"/>
+		<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="stylesheet" href="./CSS/forgot.css">
+		<link rel="stylesheet" href="./css/flexslider.css" >
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header class="container-fluid w-100">
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a href="ix.html">
+              <span>IXS/XS Max</span>
+            </a>
+            <a  href="ixr.html">
+              <span>Iphone XR</span>
+            </a>
+            <a  href="i8.html">
+              <span>I8/7 Plus</span>
+            </a>
+            <a  href="s10.html">
+              <span>S10/s10+/s10e</span>
+            </a>
+            <a  href="other.html">
+              <span>其他商品</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+			<label class="tittle">
+				<a href="index.html" class="tittle"><p class="tittle">JIC shop</p></a>
+			</label>
+			
+				
+				<ul id="vip" class="vip">
+					<li class="tittle" ><img src="./img/cart.gif" class="vip"></li>
+					<li class="tittle">
+						<img src="./img/head.png" class="vip" onclick="document.getElementById('login').style.display='block'">
+						<div id="login" class="modal">
+							<div class="login-form">
+								<input type="radio" name="tab" class="tab" id="sign-up-tab" checked>
+								<label class="login tab-header" for="sign-up-tab" >會員註冊</label>
+								<input type="radio" name="tab" class="tab" id="sign-in-tab">
+								<label class="login tab-header" for="sign-in-tab">會員登入</label>
+								<form id="sign-up">
+									<span onclick="document.getElementById('login').style.display='none'"
+									class="close" title="Close" style="color:white;">&times;</span>
+									<div class="header">Sign up for free</div>
+									<hr>
+									<div class="form-input">
+										<input type="text" class="input" id="new-username" placeholder="帳號" required/>
+									</div>
+									<div class="form-input">
+										<input type="email" class="input" id="email" placeholder="電子信箱" required/>
+									</div>
+									<div class="form-input">
+										<input type="password" class="input" id="new-password" placeholder="密碼" required/>
+									</div>
+									<div class="form-input">
+										<input type="text" class="input" id="address" placeholder="地址" required/>
+									</div>
+									<input type="submit" id="sign-up-btn" class="submit-button" value="註冊">
+								</form>
+								<form id="sign-in">
+									<span onclick="document.getElementById('login').style.display='none'"
+									class="close" title="Close" style="color:white;">&times;</span>
+									<div class="header">Welcome Back</div>
+									<div class="form-input">
+										<input type="text" class="input" id="username" placeholder="帳號" required/>
+									</div>
+									<div class="form-input">
+										<input type="password" class="input" id="password" placeholder="密碼" required/>
+									</div>
+									
+									<span id="check">忘記密碼,<a href="yahoo.com.tw">請點此</a></span>
+									<input type="submit" id="sign-in-btn" class="submit-button" value="SIGN IN">
+								</form>
+
+							</div>
+						</div>
+					</li>
+					<li class="search">
+						<a href="search.html"><img src="img/search.png" id="search_pic"></a>
+						<form action="" method="post">
+							<input type="text" name="search" id="search" size="10" placeholder="search">
+						</form>
+						
+					</li>
+				</ul>
+			
+		</header>
+		<div class="bread">
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a>/</li>
+				<li><a href="#">Pictures</a>/</li>
+				<li><a href="#">Summer 15</a>/</li>
+				<li>Italy</li>
+			</ul>
+		</div>
+<div class="container forgot">
+			<u>查詢密碼</u>
+							<form class="forgot">
+									
+									<div class="form-forgot">
+										<input type="text" class="input" id="new-username" placeholder="輸入信箱" required/>
+									</div>
+									
+									<input type="submit" class="submit-forgot" value="寄送密碼">
+									<input type="submit" class="submit-forgot" value="重設">
+								</form>
+								<p class="forgot">※ 注意：
+請輸入您認證JIC的信箱，否則無法收到信件。
+使用免費信箱，信件有可能被誤判為垃圾信，請先至「垃圾信匣」查看。
+若仍收不到信件。</p>
+</div>
+
+			<footer class="container-fluid">
+				&copy;© Copyright JIC 2019. All rights reserved.<br><br>
+				<a href="https://www.facebook.com/profile.php?id=100003151478137"><img src="img/W.png" id="member" title="兆崴"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100002695652164"><img src="img/Z.png" id="member" title="慶瑜"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100000192364709" title=""><img src="img/C.png" id="member" title="文馨"></a> &nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100008184541824"><img src="img/S.png" id="member" title="筱凌"></a>
+			</footer>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+			
+			<script defer src="./js/jquery.flexslider.js"></script>
+			<script type="text/javascript">
+			$(function(){
+			SyntaxHighlighter.all();
+			});
+			$(window).load(function(){
+			$('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
+			});
+			});
+			</script>
+				<script>
+		//<![CDATA[
+		(function () {
+		$("body").append("<img id='goTopButton' style='display: none; z-index: 5; cursor: pointer;' title='回到頂端'/>");
+		var img = "http://1.bp.blogspot.com/-zMfrIkyhlVs/Uh7FePoKU8I/AAAAAAAAHnA/WA0H_vbWAWc/s1600/go-top.png",
+		locatioin = 2/3, // 按鈕出現在螢幕的高度
+		right = 10, // 距離右邊 px 值
+		opacity = 1, // 透明度
+		speed = 500, // 捲動速度
+		$button = $("#goTopButton"),
+		$body = $(document),
+		$win = $(window);
+		$button.attr("src", img);
+		$button.on({
+		mouseover: function() {$button.css("opacity", 1);},
+		mouseout: function() {$button.css("opacity", opacity);},
+		click: function() {$("html, body").animate({scrollTop: 0}, speed);}
+		});
+		window.goTopMove = function () {
+		var scrollH = $body.scrollTop(),
+		winH = $win.height(),
+		css = {"top": winH * locatioin + "px", "position": "fixed", "right": right, "opacity": opacity};
+		if(scrollH > 20) {
+		$button.css(css);
+		$button.fadeIn("slow");
+		} else {
+		$button.fadeOut("slow");
+		}
+		};
+		$win.on({
+		scroll: function() {goTopMove();},
+		resize: function() {goTopMove();}
+		});
+		} )();
+		//]]>
+		</script>
+		    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+		      <script src="js/classie.js" type="text/javascript"></script>
+		        <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		           <script src="js/main.js" type="text/javascript"></script>
+		</body>
+
+	</html>
